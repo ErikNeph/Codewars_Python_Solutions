@@ -1,2 +1,2 @@
 # Codewars
-Здесь собраны мои решение задач на codewars.
+Here are my solutions to problems on codewars
