@@ -12,10 +12,7 @@ Basements (negatives) stay the same as the universal level.
 """
 
 def get_real_floor(n: int) -> int:
-    if n == 0:
-        return 0
-
-    if n < 0:
+    if n <= 0:
         return n
 
     return n - 1 if n < 13 else n - 2
