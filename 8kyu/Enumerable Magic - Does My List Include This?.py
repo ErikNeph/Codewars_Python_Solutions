@@ -6,4 +6,4 @@ from typing import Any
 
 
 def include(arr: list, item: Any) -> bool:
-    return item in arr or False
+    return item in arr
