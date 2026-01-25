@@ -15,7 +15,7 @@ isDigit("3 5")
 isDigit("zero")
 """
 
-def is_digit(s: str) -> int | float:
+def is_digit(s: str) -> bool:
     try:
         if float(s):
             return True
