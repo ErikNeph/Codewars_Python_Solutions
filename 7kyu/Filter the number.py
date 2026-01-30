@@ -11,8 +11,4 @@ You will be given a string of numbers and letters mixed up, you have to return a
 """
 
 def filter_string(st):
-    res = ""
-    for char in st:
-        if char.isdigit():
-            res += char
-    return int(res)
+    return int("".join(filter(str.isdigit, st)))
